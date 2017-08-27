@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical" android:layout_width="match_parent"
+        android:layout_height="match_parent"
+    android:background="@color/White">
+
+    <TextView
+        android:id="@+id/nameCo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="@string/contacts"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textSize="@dimen/textSize"/>
+
+        <TextView
+            android:id="@+id/contakti"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="Text"
+            android:textColor="@color/PrimaryDarkColor"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+    <TextView
+        android:id="@+id/cont2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:paddingLeft="18dp"
+        android:text="Text"
+        android:textColor="@color/PrimaryDarkColor"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+
+    </LinearLayout>
+
+

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:checkableBehavior="single">
+
+<group android:id="@+id/gr1">
+    <item
+        android:id="@+id/glav"
+        android:checked="false"
+        android:title="@string/home_string"
+        android:icon="@drawable/ic_home_black_24dp"/>
+</group>
+<group android:id="@+id/gr2">
+    <item
+        android:id="@+id/news"
+        android:checked="false"
+        android:title="@string/news_string"
+        android:icon="@drawable/ic_message_black_24dp"/>
+
+</group>
+    <group android:id="@+id/gr3">
+        <item
+            android:id="@+id/trud"
+            android:checked="false"
+            android:title="@string/trud_string"
+            android:icon="@drawable/ic_assistant_black_24dp"/>
+    </group>
+
+    <group android:id="@+id/gr4">
+        <item
+            android:id="@+id/strelok"
+            android:checked="false"
+            android:title="@string/strelok_string"
+            android:icon="@drawable/ic_ac_unit_black_24dp"/>
+    </group>
+
+    <group android:id="@+id/gr5">
+        <item
+            android:id="@+id/rostov"
+            android:checked="false"
+            android:title="@string/sdk_string"
+            android:icon="@drawable/ic_music_note_black_24dp"/>
+    </group>
+
+    <group android:id="@+id/gr6">
+        <item
+            android:id="@+id/molodeg"
+            android:checked="false"
+            android:title="@string/molodeg_string"
+            android:icon="@drawable/ic_people_outline_black_24dp"/>
+    </group>
+    <group android:id="@+id/gr7">
+        <item
+            android:id="@+id/skidki"
+            android:checked="false"
+            android:title="@string/skidki_string"
+            app:actionLayout="@layout/menu_counter"
+            android:icon="@drawable/ic_strikethrough_s_black_24dp"/>
+    </group>
+    <group android:id="@+id/gr8">
+        <item
+            android:id="@+id/opovech"
+            android:checked="false"
+            android:title="@string/notif_string"
+            app:actionLayout="@layout/menu_counter"
+            android:icon="@drawable/ic_announcement_black_24dp"/>
+    </group>
+    <group android:id="@+id/gr9">
+        <item
+            android:id="@+id/tel"
+            android:checked="false"
+            android:title="Тел. книга"
+            android:icon="@drawable/ic_assistant_black_24dp"/>
+    </group>
+
+</menu>

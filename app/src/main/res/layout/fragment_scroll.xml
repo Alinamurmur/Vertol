@@ -1,0 +1,23 @@
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:attrs="http://schemas.android.com/apk/res-auto"
+    android:background="@color/White"
+    android:orientation="vertical">
+
+    <com.rd.PageIndicatorView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        attrs:piv_unselectedColor="#737373"
+        attrs:piv_selectedColor="#910707"
+        android:layout_marginTop="5dp"
+        android:id="@+id/indicator"/>
+
+    <android.support.v4.view.ViewPager
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/viewpager">
+
+    </android.support.v4.view.ViewPager>
+
+</LinearLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="C:\Users\Alina\.android\build-cache\7a692d7f45067349adb1ed5e82f28ad3f43e5f6e\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="8f69e1879d2599e4c063d99730fc6f9ca9d503b1">
+        <dex dex="C:\Users\Alina\AndroidStudioProjects\MyProjektIsWork-kotofenum\app\build\intermediates\pre-dexed\debug\classes_be08e15bf0ca4614666de0f7ef67596503df4ddc.jar" />
+    </item>
+
+</items>
